@@ -1,0 +1,85 @@
+    body{
+    margin: 0;
+    padding: 0;
+  background-color:brown;
+  background:-webkit-linear-gradient(to right ,rgb(36, 34, 34),gold);
+  background:-moz-linear-gradient(to right,rgb(36, 34, 34),gold);
+  background:-webkit-linear-gradient( to right,rgb(36, 34, 34),gold);
+  font-family: cursive;
+  font-size: 14.5px;
+    }
+   
+    .box{
+        width: 300px;
+        height: 430px;
+        background:bisque;
+        border-radius: 10px;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0px 1px 10px 1px black ;
+        overflow: hidden;
+        
+       }
+       .upper{
+           height: 180px;
+           background-color: goldenrod;
+           text-align: center;
+           position: relative ;
+       }
+       .lower{
+           height: 250px;
+           background-color: teal;
+           text-align: center;
+          padding: 15px;
+           padding-bottom: 10px;
+       }
+       .upper img{
+           height:100px;
+           width:100px;
+           border-radius: 50%;
+           position: absolute;
+           bottom: -40px;
+           left:100px;
+           border: 5px solid teal;
+           
+       }
+
+       .lower h4{
+           color:whitesmoke;
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bolder;
+           font-size: 17px;
+       }
+       .lower h5{
+        color:gold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        
+    }
+    .lower p{
+        color:whitesmoke;
+    }
+    .lower .btn{
+        color: black;
+        background-color:goldenrod;
+        border:none;
+        border-radius: 20px;
+        padding:5px 20px;
+        transition: all .5s ease-in;
+    }
+    .lower a {
+        text-decoration: none;
+
+    }
+
+    .lower a:hover{
+        background-color:black;
+        color:goldenrod;
+    } 
+
+ 
+    
+    
+  
